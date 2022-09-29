@@ -1,13 +1,13 @@
 
 .rgba-gradient-nav {
-    background-color: #eee !important;
+    background-color: rgba(10, 25, 47, 0.85) !important;
 } 
 .navbar-scroll-color{
-    background-color: #fff !important;
+    background-color: rgba(10, 25, 47, 0.85) !important;
   }
 
   .rgba-gradient {
-    background-color: #eee;
+    background-color: rgba(10, 25, 47, 0.85);
    }
    
 
@@ -27,12 +27,12 @@ ul li a {
 }
 
 .navbar {
-  background-color: #fff;
+  background-color:rgba(10, 25, 47, 0.85);
 }
 
 .nav-link,
 .navbar-brand {
-  color: black !important;
+  color: #ccd6f6 !important;
   font-size: 15px;
 }
 

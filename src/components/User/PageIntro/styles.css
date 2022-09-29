@@ -1,10 +1,10 @@
 .rgba-gradient {
-  background-color: #eee;
+  background-color:rgba(10, 25, 47, 0.85);
 }
 
 .header {
   height: 100vh;
-  color: #fff;
+  color: rgba(10, 25, 47, 0.85);
 }
 
 .dev-img {

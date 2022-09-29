@@ -23,7 +23,7 @@ const Experience = ({ reff }) => {
     })
     console.log(exp.technologies);
     return (
-      <div key={exp.id} className="col-lg-12">
+      <div key={exp.id} className="col-lg-12" >
         <div className="row">
           <div className="col-xl-10 col-md-11 col-10 ms-5 ">
             <p className="fw-bold mb-2" style={{ fontSize: "19px" }}>
@@ -63,10 +63,10 @@ const Experience = ({ reff }) => {
       ref={reff}
       id="experience"
       className="py-5"
-      style={{ backgroundColor: "#fff" }}
+      style={{ backgroundColor: "#0a192f" }}
     >
       <div className="container">
-        <h2 className="h1-responsive font-weight-bold text-center mb-5">
+        <h2 className="h1-responsive font-weight-bold text-center mb-5" style={{color:"#ccd6f6"}}>
           Experience
         </h2>
 
@@ -79,7 +79,7 @@ const Experience = ({ reff }) => {
             />
           </div>
 
-          <div className="col-lg-7 mt-4">
+          <div className="col-lg-7 mt-4" style={{color:"#8892b0"}}>
             <div className="row mb-3">{experience}</div>
           </div>
         </div>

@@ -14,22 +14,34 @@ const Skills = ({ reff }) => {
   const colors = {
     bar: "#3498db",
     title: {
-      text: "#fff",
+      text: "#ccd6f6",
       background: "#2980b9",
     },
   };
+  const skill = skills.map((res) => {
+    console.log(res);
+    return(
+      <div key={res.id} className="d-inline" style={{ color: "#ccd6f6" }}>
+                
+                <ul style={{display: "inline"}}>
+                  <li style={{listStyleType: "none",display:"inline-block"}}>
+                      <i class={res.clas} style={{ color: "#64ffda",fontSize:"40px"}}></i><br />
+                      <label style={{ color: "#8892b0",display:"block"}}>{res.name}</label>
+                  </li>
+                </ul>
+                
+                
+      </div>
+      );
+  });
   
   return (
-    <div ref={reff} className="pt-0 pb-5" style={{ backgroundColor: "#fff" }}>
+    <div ref={reff} className="pt-0 pb-5" style={{ backgroundColor: "#0a192f" }}>
       <div className="container">
-        <h2 className="h1-responsive font-weight-bold text-center mb-4">
+        <h2 className="h1-responsive font-weight-bold text-center mb-4" style={{color:"#ccd6f6"}}>
           Skills
         </h2>
-        <SkillBar
-          skills={skills}
-          colors={colors}
-          animationDuration={4000}
-        ></SkillBar>
+        {skill}
       </div>
     </div>
   );

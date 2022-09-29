@@ -16,7 +16,7 @@ const Navbar = ({ onLinkClick }) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar navbar-fixed-top py-3 ${
+      className={`navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar navbar-fixed-top py-1 ${
         navbar ? "navbar-scroll-color" : "rgba-gradient-nav"
       }`}
     >

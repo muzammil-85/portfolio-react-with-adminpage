@@ -32,10 +32,10 @@ const About = ({ reff }) => {
       ref={reff}
       id="about"
       className="py-5"
-      style={{ backgroundColor: "#fff" }}
+      style={{ backgroundColor: "#0a192f" }}
     >
-      <div className="container">
-        <h2 className="h1-responsive font-weight-bold text-center mb-5">
+      <div className="container" style={{ color: "#8892b0" }} >
+        <h2 className="h1-responsive font-weight-bold text-center mb-5" style={{ color: "#ccd6f6" }}>
           About Me
         </h2>
 
